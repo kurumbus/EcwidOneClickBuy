@@ -7,9 +7,7 @@ jQuery( document ).ready(function() {
         '<span class="form-group"><input type="text" id="inputPhone" placeholder="Your phone number" style="width: 150px" required> </span>' +
         '<span class="form-group"> <button type="submit" class="btn btn-primary">Buy!</button> </div>' +
         '</form>';
-         console.log('works2');
          jQuery('#oneclickbuy').on('click', function() {
-           console.log('works3');
            jQuery('#oneclick_pop').webuiPopover({
               content: input,
               placement: 'bottom',
